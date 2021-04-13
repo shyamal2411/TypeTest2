@@ -6,7 +6,7 @@ const Nav =()=>{
         <div className="nav-container">
             <div className="nav-left">
                 <img className="flash-logo" src={logo} alt="logo" />
-            <p className="flash-logo-text">Flash Type</p>
+            <p className="flash-logo-text">Test Type</p>
             </div>
             {/* Nav left complete */}
         </div>
