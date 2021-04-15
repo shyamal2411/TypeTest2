@@ -4,11 +4,23 @@
     align-items: center;
     background:#0a3131;
     margin: 0;
+    justify-content: space-between;
+    z-index: 99;
 }
 
 .nav-left {
     display:flex;
     align-items: center;
+}
+.nav-right {
+    margin-right:40px;
+}
+
+.nav-link {
+    font-size:25px;
+    color:#eeeeee;
+    font-weight:800;
+    text-decoration: none;
 }
 
 .flash-logo {
@@ -22,4 +34,5 @@
     letter-spacing: 1px;
     margin: 0 10px;
     color: #eeeeee;
+    text-decoration: none;
 }
