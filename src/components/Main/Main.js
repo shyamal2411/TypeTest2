@@ -3,7 +3,7 @@ import "./Main.css";
 import hero from "./../../assets/hero.png"
 const Main = () => {
   return( <div className="main-container">
-    <div className="main-left">
+    <div data-aos="fade-right" className="main-left">
         <h1 className="main-header">How fast are you?</h1>
         <div className="typewriter-container">
             <p>Fast</p>
@@ -12,7 +12,11 @@ const Main = () => {
         </div>
     </div>
     <div className="main-right">
-        <img src={hero} className="hero-img" alt="hero"/>
+        <img
+        data-aos="fade-left" 
+        src={hero} 
+        className="hero-img" 
+        alt="hero"/>
     </div>
   </div>
   );
