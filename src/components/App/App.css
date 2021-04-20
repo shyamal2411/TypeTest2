@@ -1,11 +1,12 @@
-body{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.app{
-    display:flex;
-    flex-direction: column;
-    background-color:#112544;
+.app {
+  display: flex;
+  flex-direction: column;
+  /* background-color:#112544; */
+  background-color: #1562d4;
 }

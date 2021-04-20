@@ -11,7 +11,7 @@ const Main = () => {
         <div className="typewriter-container">
           <Typewriter
             options={{
-              strings: ["Hello", "World"],
+              strings: ["Fast?", "Correct?", "Quick?"],
               autoStart: true,
               loop: true
             }}
